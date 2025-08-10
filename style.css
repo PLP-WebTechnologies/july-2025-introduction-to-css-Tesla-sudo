@@ -1,0 +1,107 @@
+/* Basic styling for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container to center and give a max width to the content */
+.container {
+    max-width: 960px;
+    margin: 20px auto; /* 20px top/bottom margin, 'auto' for horizontal centering */
+    padding: 0 20px; /* 20px of padding on the left and right */
+}
+
+/* Header and Navigation Styling */
+.main-header {
+    background-color: #8AAAE5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; /* Separates the header from the content */
+}
+
+.main-nav ul {
+    list-style: none; /* Removes bullet points from the list */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #8AAAE5;
+    overflow: hidden; /* Ensures the background color covers all list items */
+}
+
+.main-nav li {
+    display: inline-block; /* Makes the list items display side-by-side */
+}
+
+.main-nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+     /* A subtle visual separator between links */
+}
+
+.main-nav a:hover {
+    background-color: #00008B;
+}
+
+/* Card Section Styling to demonstrate Box Model */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px; /* Inner spacing between content and border */
+    margin-bottom: 20px; /* Outer spacing between cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0; /* Resets default margin for a tighter fit */
+    color: #007bff;
+}
+
+/* Explicit Box Model Demonstration Section */
+.box-model-demo {
+    background-color: #e9ecef;
+    border: 5px dashed #ff5733; /* A prominent dashed border */
+    padding: 30px; /* Generous padding */
+    margin: 40px 0; /* Large top and bottom margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.box-model-demo p {
+    background-color: #cce5ff;
+    padding: 15px; /* Padding for the inner paragraph content */
+    border: 2px solid #0056b3; /* Border for the inner paragraph content */
+    margin: 0; /* Reset default paragraph margin to better show the padding */
+}
+
+/* Button Styling */
+.styled-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px; /* Space above the button */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styling */
+.main-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8AAAE5;
+    color: #fff;
+    margin-top: 20px;
+}
